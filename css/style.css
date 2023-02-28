@@ -121,3 +121,24 @@ p {
     padding:  0  0.625rem;
     transition: all 0.3s linear;
 }
+.navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.nav-link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--white-color);
+    letter-spacing: 1px;
+}
+.nav-link:hover,
+.nav-link:active {
+   color: var(--primary-color) !important;
+}
+.navigation-wrap .main-btn {
+    padding: 0.3125rem 1.437rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
