@@ -1,0 +1,41 @@
+*,*::after,*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a,a:hover {
+    text-decoration: none;
+}
+a:hover {
+    color: var --primary-color !important;
+}
+
+:root {
+    --primary-color:#FFC222;
+    --secondary-color:#00a149;
+    --white-color:#fff;
+    --text-color:#b0b0b0;
+    --black-color:#1E1D23;
+    --primary-font: 'Roboto','sans-serif';
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* custom scrollbar  */
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+::-webkit-slider-thumb {
+    background: var(--sec);
+}
